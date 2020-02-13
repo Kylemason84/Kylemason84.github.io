@@ -33,27 +33,29 @@ body {
             }
         }
     }
-    div.header-banner {
-        position: relative;
-        border-top: 3px solid black;
+    div.header-wrapper {
+    border-top: 3px solid black;
+        div.header-banner {
+            position: relative;
 
-        div.banner-text {
-            position: absolute;
-            top: 30%;
-            left: 0;
-            text-align: center;
-            width: 100%;
-            
-            h2 {
-                font-weight: 700;
-                color: #ffffffdb;
+            div.banner-text {
+                position: absolute;
+                top: 30%;
+                left: 0;
+                text-align: center;
                 width: 100%;
-                font-size: 3.3vw;
-                text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+
+                h2 {
+                    font-weight: 700;
+                    color: #ffffffdb;
+                    width: 100%;
+                    font-size: 3.3vw;
+                    text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+                }
             }
-        }
-        img {
-            width: 100%;
+            img {
+                width: 100%;
+            }
         }
     }
 }
