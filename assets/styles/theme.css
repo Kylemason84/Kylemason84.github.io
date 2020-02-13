@@ -1,6 +1,42 @@
 body {
   padding: 0;
+  margin: 0;
   color: #333;
-  font-size: 16px; }
-
-/* FONTS */
+  font-size: 16px;
+  font-family: Franklin Gothic Condensed,sans-serif; }
+  body div.title-image {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    body div.title-image img {
+      height: 240px; }
+  body div.navigation {
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    body div.navigation a.nav-item {
+      text-decoration: none;
+      padding: 15px;
+      color: #333;
+      font-weight: 600;
+      display: inline-block; }
+      body div.navigation a.nav-item:hover {
+        box-shadow: 0 3px 0 0 #fbce0a; }
+  body div.header-banner {
+    position: relative;
+    border-top: 3px solid black; }
+    body div.header-banner div.banner-text {
+      position: absolute;
+      top: 30%;
+      left: 0;
+      text-align: center;
+      width: 100%; }
+      body div.header-banner div.banner-text h2 {
+        font-weight: 700;
+        color: #ffffffdb;
+        width: 100%;
+        font-size: 3.3vw;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
+    body div.header-banner img {
+      width: 100%; }

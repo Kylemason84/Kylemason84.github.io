@@ -2,9 +2,58 @@ $font-color: #333;
 
 body {
     padding: 0;
+    margin: 0;
     color: $font-color;
     font-size: 16px;
+    font-family: Franklin Gothic Condensed,sans-serif;
+
+    div.title-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        img {
+            height: 240px;
+        }
+    }
+
+    div.navigation {
+        font-size: 16px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        a.nav-item {
+            text-decoration: none;
+            padding: 15px;
+            color: $font-color;
+            font-weight: 600;
+            display: inline-block;
+            &:hover {
+                box-shadow: 0 3px 0 0 #fbce0a;
+            }
+        }
+    }
+    div.header-banner {
+        position: relative;
+        border-top: 3px solid black;
+
+        div.banner-text {
+            position: absolute;
+            top: 30%;
+            left: 0;
+            text-align: center;
+            width: 100%;
+            
+            h2 {
+                font-weight: 700;
+                color: #ffffffdb;
+                width: 100%;
+                font-size: 3.3vw;
+                text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+            }
+        }
+        img {
+            width: 100%;
+        }
+    }
 }
-
-
-/* FONTS */
