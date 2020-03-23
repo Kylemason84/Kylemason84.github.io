@@ -53,6 +53,43 @@ body {
                     text-shadow: 1px 1px 1px rgba(0,0,0,.1);
                 }
             }
+
+            div.banner-content-margin {
+                padding: 15px;
+                position: absolute;
+                top: 8vw;
+                left: 5%;
+                width: 35%;
+                background: white;
+
+                div.banner-content {
+                    text-align: center;
+                    padding:10px;
+                    border: 1px solid gray;
+                    font-size: 16px;
+                    line-height: 1.5;
+                }
+            }
+            @media only screen and (max-width: 1080px) {
+                div.banner-content-margin {
+                    display: none;
+                    padding: 15px;
+                    position: absolute;
+                    top: 8vw;
+                    left: 5%;
+                    width: 35%;
+                    background: white;
+
+                    div.banner-content {
+                        text-align: center;
+                        padding:10px;
+                        border: 1px solid gray;
+                        font-size: 16px;
+                        line-height: 1.5;
+                    }
+                }
+            }
+
             img {
                 width: 100%;
             }

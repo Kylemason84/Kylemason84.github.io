@@ -2,3 +2,10 @@
   margin: 50px 25vw;
   font-size: 20px;
   line-height: 1.5; }
+
+@media only screen and (min-width: 1080px) {
+  .about-us {
+    display: none;
+    margin: 50px 25vw;
+    font-size: 20px;
+    line-height: 1.5; } }
