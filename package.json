@@ -26,6 +26,6 @@
     "rerun-script": "^0.6.0"
   },
   "watches": {
-      "compile-sass": "src/sass/**"
+    "compile-sass": "src/sass/**"
   }
 }
