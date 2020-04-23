@@ -1,4 +1,4 @@
-.info-wrapper {
+.info-group {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -6,5 +6,5 @@
   justify-content: center;
   margin-top: 15px;
   font-size: 24px; }
-  .info-wrapper .info-text.phone-number {
+  .info-group .info-text.phone-number {
     font-weight: bold; }
