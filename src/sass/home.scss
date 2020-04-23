@@ -1,0 +1,12 @@
+.info-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 24px;
+    .info-text.phone-number {
+        font-weight: bold;
+    }
+}
