@@ -3,11 +3,29 @@
     font-size: 20px;
     line-height: 1.5;
 }
+.hours {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}
 @media only screen and (min-width: 1080px) {
     .about-us {
         display: none;
         margin: 50px 25vw;
         font-size: 20px;
         line-height: 1.5;
+    }
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    .gallery-image {
+        width: 360px;
+        margin-bottom: 15px;
     }
 }
