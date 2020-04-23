@@ -1,0 +1,10 @@
+.menu-wrapper {
+  text-align: center; }
+  .menu-wrapper .menu {
+    width: 1000px; }
+  @media only screen and (max-width: 1080px) {
+    .menu-wrapper .menu {
+      width: 540px; } }
+  @media only screen and (max-width: 540px) {
+    .menu-wrapper .menu {
+      width: 300px; } }

@@ -1,0 +1,18 @@
+.menu-wrapper {
+    text-align: center;
+    .menu {
+        width: 1000px;
+    }
+    
+    @media only screen and (max-width: 1080px) {
+        .menu {
+            width: 540px;
+        }
+    }
+    
+    @media only screen and (max-width: 540px) {
+        .menu {
+            width: 300px;
+        }
+    }
+}
