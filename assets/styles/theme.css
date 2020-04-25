@@ -3,113 +3,73 @@ body {
   margin: 0;
   color: #333;
   font-size: 16px;
-  font-family: Franklin Gothic Condensed,sans-serif;
-}
-
-body div.title-image {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-body div.title-image img {
-  height: 240px;
-}
-
-body div.navigation {
-  font-size: 16px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-body div.navigation a.nav-item {
-  text-decoration: none;
-  padding: 15px;
-  color: #333;
-  font-weight: 600;
-  display: inline-block;
-}
-
-body div.navigation a.nav-item:hover {
-  -webkit-box-shadow: 0 3px 0 0 #fbce0a;
-          box-shadow: 0 3px 0 0 #fbce0a;
-}
-
-body div.navigation a.nav-item.current {
-  color: white;
-  background: black;
-  border-radius: 8px 8px 0 0;
-}
-
-body div.header-wrapper {
-  border-top: 3px solid black;
-}
-
-body div.header-wrapper div.header-banner {
-  position: relative;
-}
-
-body div.header-wrapper div.header-banner div.banner-text {
-  position: absolute;
-  top: 30%;
-  left: 0;
-  text-align: center;
-  width: 100%;
-}
-
-body div.header-wrapper div.header-banner div.banner-text h2 {
-  font-weight: 700;
-  color: #ffffffdb;
-  width: 100%;
-  font-size: 3.3vw;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-}
-
-body div.header-wrapper div.header-banner div.banner-content-margin {
-  padding: 15px;
-  position: absolute;
-  top: 6vw;
-  left: 5%;
-  width: 35%;
-  background: white;
-}
-
-body div.header-wrapper div.header-banner div.banner-content-margin div.banner-content {
-  text-align: center;
-  padding: 10px;
-  border: 1px solid gray;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-@media only screen and (max-width: 1080px) {
-  body div.header-wrapper div.header-banner div.banner-content-margin {
-    display: none;
-    padding: 15px;
-    position: absolute;
-    top: 6vw;
-    left: 5%;
-    width: 35%;
-    background: white;
-  }
-  body div.header-wrapper div.header-banner div.banner-content-margin div.banner-content {
-    text-align: center;
-    padding: 10px;
-    border: 1px solid gray;
+  font-family: Franklin Gothic Condensed,sans-serif; }
+  body div.title-image {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    body div.title-image img {
+      height: 240px; }
+  body div.navigation {
     font-size: 16px;
-    line-height: 1.5;
-  }
-}
-
-body div.header-wrapper div.header-banner img {
-  width: 100%;
-}
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    body div.navigation a.nav-item {
+      text-decoration: none;
+      padding: 15px;
+      color: #333;
+      font-weight: 600;
+      display: inline-block; }
+      body div.navigation a.nav-item:hover {
+        box-shadow: 0 3px 0 0 #fbce0a; }
+      body div.navigation a.nav-item.current {
+        color: white;
+        background: black;
+        border-radius: 8px 8px 0 0; }
+  body div.header-wrapper {
+    border-top: 3px solid black; }
+    body div.header-wrapper div.header-banner {
+      position: relative; }
+      body div.header-wrapper div.header-banner div.banner-text {
+        position: absolute;
+        top: 30%;
+        left: 0;
+        text-align: center;
+        width: 100%; }
+        body div.header-wrapper div.header-banner div.banner-text h2 {
+          font-weight: 700;
+          color: #ffffffdb;
+          width: 100%;
+          font-size: 3.3vw;
+          text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
+      body div.header-wrapper div.header-banner div.banner-content-margin {
+        padding: 15px;
+        position: absolute;
+        top: 6vw;
+        left: 5%;
+        width: 35%;
+        background: white; }
+        body div.header-wrapper div.header-banner div.banner-content-margin div.banner-content {
+          text-align: center;
+          padding: 10px;
+          border: 1px solid gray;
+          font-size: 16px;
+          line-height: 1.5; }
+      @media only screen and (max-width: 1080px) {
+        body div.header-wrapper div.header-banner div.banner-content-margin {
+          display: none;
+          padding: 15px;
+          position: absolute;
+          top: 6vw;
+          left: 5%;
+          width: 35%;
+          background: white; }
+          body div.header-wrapper div.header-banner div.banner-content-margin div.banner-content {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid gray;
+            font-size: 16px;
+            line-height: 1.5; } }
+      body div.header-wrapper div.header-banner img {
+        width: 100%; }
