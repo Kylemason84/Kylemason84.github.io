@@ -14,12 +14,14 @@
   width: 20%;
   margin-left: auto;
   margin-right: auto;
-  min-width: 200px; }
+  min-width: 200px;
+}
 
 .note {
   font-weight: 600;
   margin-top: 10px;
-  text-align: center; }
+  text-align: center;
+}
 
 @media only screen and (min-width: 1090px) {
   .about-us {
@@ -44,19 +46,34 @@
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  flex-wrap: wrap;
-  margin-top: 15px; }
-  .gallery .group {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    flex-wrap: wrap; }
-    .gallery .group .gallery-image-a {
-      width: 360px;
-      height: 292px;
-      margin: 15px; }
-    .gallery .group .gallery-image-b {
-      width: 360px;
-      height: 480px;
-      margin: 15px; }
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.gallery .group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.gallery .group .gallery-image-a {
+  width: 360px;
+  height: 292px;
+  margin: 15px;
+}
+
+.gallery .group .gallery-image-b {
+  width: 360px;
+  height: 480px;
+  margin: 15px;
+}
