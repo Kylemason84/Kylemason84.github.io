@@ -6,9 +6,21 @@
 .hours {
   margin-top: 15px;
   font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 7px;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 200px; }
+
+.note {
+  font-weight: 600;
+  margin-top: 10px;
   text-align: center; }
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1090px) {
   .about-us {
     display: none;
     margin: 50px 25vw;
@@ -29,6 +41,11 @@
     justify-content: space-around;
     width: 100%;
     flex-wrap: wrap; }
-    .gallery .group .gallery-image {
+    .gallery .group .gallery-image-a {
       width: 360px;
+      height: 292px;
+      margin: 15px; }
+    .gallery .group .gallery-image-b {
+      width: 360px;
+      height: 480px;
       margin: 15px; }
