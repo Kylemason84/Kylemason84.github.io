@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/Kylemason84/Kylemason84.github.io#readme",
   "devDependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "rerun-script": "^0.6.0"
   },
   "watches": {
